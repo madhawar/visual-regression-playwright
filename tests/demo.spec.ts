@@ -30,7 +30,7 @@ test.describe('Golden Test', function () {
     await expect(page).toHaveTitle(`Staysure™ Travel Insurance - It's Worth Doing Right`);
 
     await page.click('#onetrust-accept-btn-handler');
-    await percySnapshot(page, 'Landing Page');
+    await percySnapshot(page, 'Landing Page Staysure');
   });
 
 });

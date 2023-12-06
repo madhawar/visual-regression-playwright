@@ -1,14 +1,14 @@
 {
   "devDependencies": {
-    "@percy/cli": "1.0.5",
-    "@percy/playwright": "1.0.2",
+    "@percy/cli": "1.27.4",
+    "@percy/playwright": "^1.0.2",
     "@playwright/test": "^1.40.1",
     "@types/node": "^20.10.1",
     "playwright": "^1.40.1"
   },
   "scripts": {
-    "test": "playwright test demo --reporter=dot",
-    "demo": "percy exec -- playwright test demo --reporter=dot",
-    "percy": "percy exec -- playwright test percy --reporter=dot"
+    "test": "playwright test demo.spec.ts --reporter=dot",
+    "demo": "percy exec -- playwright test demo.spec.ts --reporter=dot",
+    "percy": "percy exec -- playwright test percy.spec.ts --reporter=dot"
   }
 }

@@ -11,7 +11,7 @@ snapshot:
 discovery:
   allowedHostnames: []
   disallowedHostnames: []
-  networkIdleTimeout: 500
+  networkIdleTimeout: 100
   captureMockedServiceWorker: false
 upload:
   files: "**/*.{png,jpg,jpeg}"
