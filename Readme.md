@@ -8,3 +8,7 @@ https://playwright.dev/docs/screenshots
 
 # Snapshot assertion
 https://playwright.dev/docs/api/class-snapshotassertions
+
+# Tutorial
+
+https://www.lambdatest.com/learning-hub/playwright-visual-regression-testing
