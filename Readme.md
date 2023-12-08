@@ -29,17 +29,17 @@ https://playwright.dev/docs/api/class-snapshotassertions
 
 UNIX
 ```
-export PERCY_TOKEN="web_891eff4d9e92b4c661498026a20a58e708f023c6b89ac4db889e8b95b55423dc"
+export PERCY_TOKEN=""
 ```
 
 Windows PowerShell
 ```
-$Env:PERCY_TOKEN="web_891eff4d9e92b4c661498026a20a58e708f023c6b89ac4db889e8b95b55423dc"
+$Env:PERCY_TOKEN=""
 ```
 
 Windows CMD
 ```
-set PERCY_TOKEN="web_891eff4d9e92b4c661498026a20a58e708f023c6b89ac4db889e8b95b55423dc"
+set PERCY_TOKEN=""
 ```
 
 Troubleshoot
