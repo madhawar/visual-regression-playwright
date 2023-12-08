@@ -1,8 +1,8 @@
 version: 2
 snapshot:
   widths:
-    - 375
-    - 1280
+    - 2796
+    - 1920
   minHeight: 1024
   percyCSS: ""
   enableJavaScript: false
