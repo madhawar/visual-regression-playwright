@@ -10,5 +10,6 @@
     "test": "playwright test demo.spec.ts --reporter=dot",
     "demo": "percy exec -- playwright test demo.spec.ts --reporter=dot",
     "percy": "percy exec -- playwright test percy.spec.ts --reporter=dot"
-  }
+  },
+  "dependencies": {}
 }
